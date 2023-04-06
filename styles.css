@@ -1,0 +1,27 @@
+div{
+    color:rgb(113, 184, 246);
+    font-family: 'Cutive Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.heading {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right {
+    justify-self: flex-end;
+}
+
+.home {
+    justify-self: flex-start;
+}
