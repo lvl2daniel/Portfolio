@@ -11,11 +11,49 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <div class="heading">
-        <div class="home">Home</div>
-        <div class="right" id="abt">About</div>
-        <div class="right" id="cont">Contact</div>
-        <div class="right" id="proj">Projects</div>
+        <div><span class="home"></span></div>
+        <script>var typed = new Typed(".home", {
+            strings: ["^400Home"],
+            typespeed: 305,
+            showCursor: false,
+            cursorChar: '█',
+            autoInsertCss: true
+        })
+        </script>
+        <div><span class="abt"></span></div>
+        <script>var typed = new Typed(".abt", {
+            strings: ["^600About"],
+            typespeed: 305,
+            showCursor: false,
+            cursorChar: '█',
+            autoInsertCss: true,
+        })</script>
+        <div><span class="contact"></span></div>
+        <script>var typed = new Typed(".contact", {
+            strings: ["^800Contact"],
+            typespeed: 305,
+            showCursor: false,
+            cursorChar: '█',
+            autoInsertCss: true,
+        })</script>
+        <div><span class="project"></span></div>
+        <script>var typed = new Typed(".project", {
+            strings: ["^1000Projects"],
+            typespeed: 305,
+            showCursor: true,
+            cursorChar: '█',
+            autoInsertCss: true,
+        })</script>
     </div>
+    <div class="abt"><span class="about">Hi, I'm Daniel Gonzalez, a computer science student at the University of Central Florida. I enjoy going to the gym in my free time and am passionate about technology and building software projects to improve my skills. I find joy in my schoolwork and am always seeking opportunities to learn and grow.^2500 If you're interested in seeing some of my projects, feel free to check them out below, which showcase some my skills and experience in software development. You can also find my contact information on my portfolio, and I'm always happy to connect with fellow tech enthusiasts or potential collaborators.^2500 My aim as a computer scientist is to create innovative solutions that make a difference in people's lives. Thank you for taking the time to read my brief introduction!</span></div>
+    <div>A</div>
+    <div class="big">ddd</div>
+
+
+
+
+    <script src="scripts.js"></script>
 </body>
 </html>
