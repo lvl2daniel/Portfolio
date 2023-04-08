@@ -12,41 +12,58 @@
 </head>
 <body>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <a id="home">
     <div class="heading">
-        <div><span class="home"></span></div>
-        <script>var typed = new Typed(".home", {
-            strings: ["^400Home"],
-            typespeed: 305,
-            showCursor: false,
-            cursorChar: '█',
-            autoInsertCss: true
-        })
+        <a href="#home">
+            <div><span class="home"></span></div>
+                <script>var typed = new Typed(".home", {
+                    strings: ["^400Home"],
+                    typespeed: 305,
+                    showCursor: false,
+                    cursorChar: '█',
+                    autoInsertCss: true
+                })
         </script>
-        <div><span class="ab"></span></div>
-        <script>var typed = new Typed(".ab", {
-            strings: ["^600About"],
-            typespeed: 305,
-            showCursor: false,
-            cursorChar: '█',
-            autoInsertCss: true,
-        })</script>
-        <div><span class="contact"></span></div>
-        <script>var typed = new Typed(".contact", {
-            strings: ["^800Contact"],
-            typespeed: 305,
-            showCursor: false,
-            cursorChar: '█',
-            autoInsertCss: true,
-        })</script>
-        <div><span class="project"></span></div>
-        <script>var typed = new Typed(".project", {
-            strings: ["^1000Projects"],
-            typespeed: 305,
-            showCursor: true,
-            cursorChar: '█',
-            autoInsertCss: true,
-        })</script>
+        </a>
+        <a href="#about">
+            <div><span class="ab"></span></div>
+                <script>var typed = new Typed(".ab", {
+                    strings: ["^600About"],
+                    typespeed: 305,
+                    showCursor: false,
+                    cursorChar: '█',
+                    autoInsertCss: true,
+                })
+        </script>
+        </a>
+        <a href="#contact">
+            <div><span class="contact"></span></div>
+                <script>var typed = new Typed(".contact", {
+                    strings: ["^800Contact"],
+                    typespeed: 305,
+                    showCursor: false,
+                    cursorChar: '█',
+                    autoInsertCss: true,
+                })
+                </script>
+        </a>
+        <a href="#projects">
+            <div><span class="project"></span></div>
+                <script>var typed = new Typed(".project", {
+                    strings: ["^1000Projects"],
+                    typespeed: 305,
+                    showCursor: true,
+                    cursorChar: '█',
+                    autoInsertCss: true,
+                })
+                </script>
+        </a>
     </div>
+    </a>
+    
+    <a id="about">
+        <div class="hello">About</div>
+    </a>
     <div class="wrapperOne">
         <div class="abt">
             <span class="about">Hi, and welcome to my webpage! I’m Daniel Gonzalez, a Computer Science major at the University of Central Florida. I have a passion for coding and enjoy making personal projects and learning new technologies in my free time. I’ve made wonderful connections and learned many new things at UCF, whether it be through hackathons, courses, or clubs. I’ve also learned how to work in front-end development through The Odin Project. When I’m not coding, I love to spend my free time in the gym and at the beach. Below you will find my contact information, projects, and resume. Thank you for visiting my site!</span>
@@ -60,6 +77,7 @@
             <li>JavaScript</li>
             <li>C</li>
             <li>Java</li>
+            <li>Python</li>
         </ul>
         Relevant Coursework:
         <ul>
@@ -68,9 +86,13 @@
             <li>Intro to Discrete Structures</li>
             <li>Calculus I && II</li>
             <li>Computer Science I</li>
-            </ul>
+            <li>Security in Computing</li>
+            <li>Computer Logic && Organization</li>
+        </ul>
     </div>
-    <div class="projHead">Projects</div>
+    <a id="projects">
+        <div class="projHead">Projects</div>
+    </a>
     <div class="wrapperTwo">
         <div class="projects" id="one">
             Calculator
@@ -82,8 +104,32 @@
             Etch-A-Sketch
         </div>
     </div>
-    <div class="big">ddd</div>
-
+    <a id="contact">
+        <div class="contHead">Contact</div>
+    </a>
+        <div class="wrapperThree">
+            <div class="box">
+                GitHub
+                <img src="congit.svg" alt="github" class="conts" id="git">
+            </div>
+            <div class="box">
+                LinkedIn
+                <img src="conlinked.svg" alt="linkedIn" class="conts" id="linkedIn">
+            </div>
+            <div class="box">
+                Resume
+                <img src="conresume.png" alt="resume" class="conts" id="resume">
+            </div>
+            <div class="box">
+                Email
+                <img src="conemail.png" alt="email" class="conts" id="email" 
+                onclick = "parent.location='mailto:danielgonzalez4444@knights.ucf.edu'"
+                style ="cursor:pointer">
+            </div>
+        </div>
+    </div>
+    <div class="thanks">Thank you for visiting my portfolio!</div>
+    <div class="empty"></div>
 
 
 
