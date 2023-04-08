@@ -1,7 +1,14 @@
+
+
+
+    
+
 div{
     color:rgb(113, 184, 246);
     font-family: 'Cutive Mono', monospace;
     font-weight: 900;
+    background-color:rgb(0, 0, 0);
+    background-size: cover;
 }
 
 body {
@@ -30,6 +37,8 @@ body {
     border-right-width: 5px;
     border-radius: 8px;
     font-size: 24px;
+    min-width: 129.453px;
+    min-height: 108px;
 }
 
 .right {
@@ -41,8 +50,7 @@ body {
 }
 
 .abt {
-    margin-top: 10rem;
-    max-width: 900px;
+    max-width: 600px;
 }
 
 .typed-cursor {
@@ -52,3 +60,89 @@ body {
 .big {
     margin:120rem;
 }
+
+.tech {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.wrapperOne{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.pegasus {
+    background-color:rgb(113, 184, 246);
+    height: 10rem;
+    width: 10rem;
+    border-style: solid;
+    border-color:rgb(113, 184, 246);
+    border-radius: 200px;
+}
+
+li {
+    list-style-type:none;
+    margin: .5rem;
+}
+
+.wrapperTwo {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projHead {
+    margin-top: 6rem;
+    font-size:xxx-large;
+    font-weight:900;
+    text-decoration: underline;
+
+    
+}
+
+.projects {
+    font-size: x-large;
+    flex: 1;
+    padding: 2rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(113, 184, 246);
+    border-width: 10px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 6rem;
+}
+.projects:hover{
+    scale: 1.1;
+    border-color: white;
+    color:white;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 520px){
+    .pegasus{
+        max-height: 5rem;
+        max-width: 8rem;
+    }
+    .wrapperOne {
+        gap: 1rem;
+    }
+    .projects{
+        font-size: medium;
+        padding: 1rem;
+        height: 4rem;
+        width: 4rem;
+    }
+} 
