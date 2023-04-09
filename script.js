@@ -36,8 +36,6 @@ resume.addEventListener("click", (event) => {
 })
 email.addEventListener("click", (event) => {
     console.log("clicked!")
-    window.open("https://rawcdn.githack.com/lvl2daniel/Etch-A-Sketch/f06e869abd3bf23ca0795c5ec843b5f848db585d/index.html");
 })
-
 
 
