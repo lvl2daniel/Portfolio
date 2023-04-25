@@ -8,7 +8,7 @@ const email = document.getElementById('email');
 console.log(proj1);
 console.log(proj2);
 console.log(proj3);
-let mypdf = "rename.docx";
+let mypdf = "resume.docx";
 
 proj1.addEventListener("click", (event) => {
     console.log("clicked!") //debug statements
@@ -32,7 +32,7 @@ linkedIn.addEventListener("click", (event) => {
 })
 resume.addEventListener("click", (event) => {
     console.log("clicked!")
-    window.open("rename.docx");
+    window.open("resume.docx");
 })
 email.addEventListener("click", (event) => {
     console.log("clicked!")
