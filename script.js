@@ -12,7 +12,7 @@ let mypdf = "rename.docx";
 
 proj1.addEventListener("click", (event) => {
     console.log("clicked!") //debug statements
-    window.open("https://rawcdn.githack.com/lvl2daniel/Calculator/a91c1209f9c6cef52b9f855881f8831925a2c8ca/index.html");
+    window.open("https://raw.githack.com/lvl2daniel/Calculator/main/index.html");
 })
 proj2.addEventListener("click", (event) => {
     console.log("clicked!")
@@ -20,7 +20,7 @@ proj2.addEventListener("click", (event) => {
 }); 
 proj3.addEventListener("click", (event) => {
     console.log("clicked!")
-    window.open("https://rawcdn.githack.com/lvl2daniel/Etch-A-Sketch/f06e869abd3bf23ca0795c5ec843b5f848db585d/index.html");
+    window.open("https://lvl2daniel.github.io/Etch-A-Sketch/");
 })
 git.addEventListener("click", (event) => {
     console.log("clicked!")
